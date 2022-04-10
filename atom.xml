@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cadlhc.github.io</id>
     <title>cardlhc</title>
-    <updated>2022-04-10T09:40:07.014Z</updated>
+    <updated>2022-04-10T10:35:15.280Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cadlhc.github.io"/>
     <link rel="self" href="https://cadlhc.github.io/atom.xml"/>
@@ -10,4 +10,14 @@
     <logo>https://cadlhc.github.io/images/avatar.png</logo>
     <icon>https://cadlhc.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, cardlhc</rights>
+    <entry>
+        <title type="html"><![CDATA[嗨，我是lhc]]></title>
+        <id>https://cadlhc.github.io/post/hai-wo-shi-lhc/</id>
+        <link href="https://cadlhc.github.io/post/hai-wo-shi-lhc/">
+        </link>
+        <updated>2022-04-10T09:40:23.000Z</updated>
+        <content type="html"><![CDATA[<p>有的是通过学校培优班进来的<br>
+在下面介绍一下你自己把</p>
+]]></content>
+    </entry>
 </feed>
