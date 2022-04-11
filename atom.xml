@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cadlhc.github.io</id>
     <title>cardlhc</title>
-    <updated>2022-04-10T11:32:31.188Z</updated>
+    <updated>2022-04-11T06:00:30.896Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cadlhc.github.io"/>
     <link rel="self" href="https://cadlhc.github.io/atom.xml"/>
@@ -10,6 +10,28 @@
     <logo>https://cadlhc.github.io/images/avatar.png</logo>
     <icon>https://cadlhc.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, cardlhc</rights>
+    <entry>
+        <title type="html"><![CDATA[python基本语句复习]]></title>
+        <id>https://cadlhc.github.io/post/python-ji-ben-yu-ju-fu-xi/</id>
+        <link href="https://cadlhc.github.io/post/python-ji-ben-yu-ju-fu-xi/">
+        </link>
+        <updated>2022-04-11T03:10:48.000Z</updated>
+        <content type="html"><![CDATA[<p>1变量的命名规则：数字、字母、下划线任意组合，英文区分大小写、不能以数字开头<br>
+2round函数是一个保留小数位数的函数，里边有两个参数，第一个参数是需要保留的值，第二个参数是保留的位数<br>
+3  pow方法是一个乘方的函数<br>
+4 len()函数用于计算字符串或者列表的长度<br>
+5 两个数值相加，如果有小数位数会保留当前的小数位数。<br>
+5字符串中每一个元素都有一个对应的索引值，元素的索引值是从0开始的<br>
+6 break语句：退出循环。当循环到判断的数或变量的时候就退出循环<br>
+7 列表中切片规则是前包后不包<br>
+8 continue是跳过当前的循环，所以代码会一直执行到最后<br>
+9 try和except，考查异常处理<br>
+10 min()函数是获取列表中的最小值，max()函数是获取列表中的最大值<br>
+11 append()方法是默认往列表中最后一个位置添加元素<br>
+12 find()方法，用来检测字符串中是否包含子字符串，如果包含子字符串则反馈其索引值，否则返回-1<br>
+13 round()：返回浮点数x的四舍五入值</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如何0代码制作网站（个人博客）]]></title>
         <id>https://cadlhc.github.io/post/ru-he-0-dai-ma-zhi-zuo-wang-zhan-ge-ren-bo-ke/</id>
