@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cadlhc.github.io</id>
     <title>cardlhc</title>
-    <updated>2022-05-15T11:36:11.319Z</updated>
+    <updated>2022-05-15T12:00:54.350Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cadlhc.github.io"/>
     <link rel="self" href="https://cadlhc.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://cadlhc.github.io/images/avatar.png</logo>
     <icon>https://cadlhc.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, cardlhc</rights>
+    <entry>
+        <title type="html"><![CDATA[C++基础数学（1）]]></title>
+        <id>https://cadlhc.github.io/post/cji-chu-shu-xue-1/</id>
+        <link href="https://cadlhc.github.io/post/cji-chu-shu-xue-1/">
+        </link>
+        <updated>2022-05-15T11:58:49.000Z</updated>
+        <content type="html"><![CDATA[<p>最近学了点C++基本功数学，笔记在这<br>
+<img src="https://cadlhc.github.io/post-images/1652616048235.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[python基本语句复习]]></title>
         <id>https://cadlhc.github.io/post/python-ji-ben-yu-ju-fu-xi/</id>
