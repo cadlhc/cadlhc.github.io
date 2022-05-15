@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文章归档 | cardlhc</title>
+<title>C++普通基本运算 | cardlhc</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,13 +12,22 @@
 <link rel="stylesheet" href="https://cadlhc.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="一个小学生的博客">
+    <meta name="description" content="最近上编程网课做了一点笔记，干脆直接把笔记放上来
+
+..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -76,60 +85,36 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
+          <div class="post-detail">
+            <h2 class="post-title">C++普通基本运算</h2>
+            <div class="post-date">2022-05-15</div>
+            
+            <div class="post-content" v-pre>
+              <p>最近上编程网课做了一点笔记，干脆直接把笔记放上来<br>
+<img src="https://cadlhc.github.io/post-images/1652614404204.png" alt="" loading="lazy"></p>
 
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
+            </div>
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2022</h2>
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://cadlhc.github.io/post/python-ji-ben-yu-ju-fu-xi/">
+                  <h3 class="post-title">
+                    python基本语句复习
+                  </h3>
+                </a>
+              </div>
+            
+
+            
               
-                
-                  <article class="post">
-                    <a href="https://cadlhc.github.io/post/cpu-tong-ji-ben-yun-suan/">
-                      <h2 class="post-title">
-                        C++普通基本运算
-                      </h2>
-                    </a>
-                  </article>
-                
+                <div id="gitalk-container" data-aos="fade-in"></div>
               
-                
-                  <article class="post">
-                    <a href="https://cadlhc.github.io/post/python-ji-ben-yu-ju-fu-xi/">
-                      <h2 class="post-title">
-                        python基本语句复习
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="https://cadlhc.github.io/post/ru-he-0-dai-ma-zhi-zuo-wang-zhan-ge-ren-bo-ke/">
-                      <h2 class="post-title">
-                        如何0代码制作网站（个人博客）
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="https://cadlhc.github.io/post/hai-wo-shi-lhc/">
-                      <h2 class="post-title">
-                        嗨，我是lhc
-                      </h2>
-                    </a>
-                  </article>
-                
+
               
             
+
           </div>
-
-          <div class="pagination-container">
-  
-  
-</div>
 
         </div>
       </div>
@@ -150,6 +135,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
